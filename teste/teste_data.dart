@@ -1,4 +1,6 @@
-import '../modelo/data.dart';
+import '../modelo/carro.dart';
+import '../modelo/cliente.dart';
+import '../modelo/produto.dart';
 
 void main() {
   var ferrari = new Carro(velMax: 50);
@@ -12,5 +14,4 @@ void main() {
     ferrari.frear();
     print(ferrari.velAtu);
   }
-  ferrari.velAtu = 8;
 }
